@@ -30,7 +30,7 @@ root_password_grub: grub.pbkdf2.sha512.10000.529DB4AF052F170948C1DB2A754CEA8A286
 # Section 04
 
 # Set this flag to use AppArmor. It is useful to disable it when the system does not support the kernel module.
-use_apparmor: True
+use_apparmor: False
 
 # Modify the kernel behavior to disallow dump of suid binaries.
 restrict_core_dumps: True
