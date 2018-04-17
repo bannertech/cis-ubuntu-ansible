@@ -83,9 +83,7 @@ rsyslog_log_files_permissions: og-rwx
 remote_logs_host_address: X.X.X.X
 
 # Set this flag to use AIDE. Disable when using another file integrity checker like OSSEC.
-use_aide: True
-
-
+use_aide: False
 
 # Section 09
 
